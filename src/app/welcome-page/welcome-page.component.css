@@ -1,11 +1,14 @@
-.nav-link{
-  color: white;
-}
-
 .container-fluid {
   height: 60vh;
 }
 
+.countdown-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-
-
+.countdown{
+  border: 5px solid white;
+   border-radius: 30px;
+}
