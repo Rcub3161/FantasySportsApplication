@@ -1,3 +1,38 @@
-<p>
-  welcome-page works!
-</p>
+<nav class="navbar navbar-dark bg-dark">
+  <ul class="nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#link">Link</a>
+    </li>
+    <li class="nav-item dropdown">
+    </li>
+  </ul>
+</nav>
+<div class="container-fluid">
+  <div class="h-100 row align-items-center">
+    <div class="col-md-4 offset-md-4 text-center">
+      <h1>
+        COUNT DOWN TO NFL SEASON
+        </h1>
+      <!-- </h1>
+      <h1>
+        {{nflStartDate | date:'medium'}}
+      </h1> -->
+      <h1>
+          Days: {{DaysLeft}}
+      </h1>
+      <h1>
+        Hours: {{HoursLeft}}
+      </h1>
+      <h1>
+        Minutes: {{MinutesLeft}}
+      </h1>
+      <h1>
+        Seconds: {{SecondsLeft}}
+      </h1>
+    </div>
+  </div>
+</div>
