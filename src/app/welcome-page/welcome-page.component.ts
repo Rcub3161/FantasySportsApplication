@@ -8,7 +8,7 @@ import { Observable, timer } from '../../../node_modules/rxjs';
 })
 export class WelcomePageComponent implements OnInit {
 
-  nflStartDate: Date = new Date('9/16/2018');
+  nflStartDate: Date = new Date('9/6/2018');
   DaysLeft: number;
   HoursLeft: number;
   MinutesLeft: number;
